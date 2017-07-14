@@ -8,7 +8,11 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  text-align: left;
+}
+
+.title-header{
+  font-family: 'Fredericka the Great', cursive;
 }
 
 p {
@@ -18,9 +22,13 @@ p {
 .button-collapse {
   color: #26a69a;
 }
+.nav-content{
+  margin-right: 50px;
+  margin-left: 200px;
+}
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 320px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +62,57 @@ p {
 
 footer.page-footer {
   margin: 0;
+
 }
+hr{
+  text-align: center;
+  width: 430px;
+}
+
+.hexagon { 
+    margin-top: 30px; 
+    height: 50px; 
+    width: 90px; 
+    background: #FFF; 
+    position: relative; 
+    float: left; 
+    margin-right: 5px; 
+    cursor: pointer; 
+} 
+
+.hexagon:before { 
+    position: absolute; 
+    bottom: 100%; 
+    content: ''; 
+    height: 0; 
+    width: 0; 
+    border-width: 0 45px 30px 45px; 
+    border-style: solid; 
+    border-color: #FFF transparent; 
+} 
+
+.hexagon:after { 
+    position: absolute; 
+    top: 100%; 
+    content: ''; 
+    height: 0; 
+    width: 0; 
+    border-width: 30px 45px 0 45px; 
+    border-style: solid; 
+    border-color: #FFF transparent; 
+} 
+
+.top, .bottom { 
+    float: left; 
+    clear: left; 
+} 
+
+.top { 
+    margin-left: 48px; 
+    margin-top: 3px; 
+} 
+
+.bottom { 
+    margin-top: 3px; 
+} 
+
